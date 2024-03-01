@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --strong-cyan: #26baa4;
+    --light-blue: #6173ff;
+    --darkg-rayishb-blue: #4c545d;
+    --grayish-blue: #9fabb2;
+
+    --title-padding: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    background-color: transparent;
+    color: var(--darkg-rayishb-blue);
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+header {
+    background-image: url(images/bg-header-mobile.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0 3rem 0;
+}
+
+main {
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+article>a {
+    border-radius: 30px;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.intro {
+    padding-top: 1rem;
+    margin-bottom: 9rem;
+}
+
+.intro__title {
+    padding-bottom: var(--title-padding);
+}
+
+.intro__download,
+.ending__download {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.intro__download {
+    margin-top: 3rem;
+}
+
+
+.ios-btn {
+    background-color: var(--strong-cyan);
+    box-shadow: 1px 3px 0px #259b89;
+}
+
+.mac-btn {
+    background-color: var(--light-blue);
+    box-shadow: 1px 3px 0px #4654bb;
+}
+
+.track {
+    margin-bottom: 9rem;
+}
+
+.track__wrapper__description {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.track__description {
+    margin-bottom: 5rem;
+}
+
+.track__description__title {
+    padding-bottom: var(--title-padding);
+}
+
+.track__figure {
+    margin-bottom: 3rem;
+}
+
+.workflow__article {
+    margin-bottom: 5rem;
+}
+
+.workflow__blacklists__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.workflow__blacklists__container figure{
+    margin-bottom: 3rem;
+}
+
+.clipboard {
+    margin-bottom: 9rem;
+}
+
+.clipboard__article {
+    margin-bottom: 3rem;
+}
+
+.clipboard__article__title {
+    padding-bottom: var(--title-padding);
+}
+
+.workflow {
+    margin-bottom: 9rem;
+}
+
+.workflow__title {
+    padding-bottom: var(--title-padding);
+}
+
+article h3 {
+    padding-bottom: var(--title-padding);
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 8rem;
+}
+
+.sponsors img {
+    max-width: 40%;
+}
+
+.ending {
+    margin-bottom: 8rem;
+}
+
+.ending__title {
+    padding-bottom: var(--title-padding);
+}
+
+.ending__download {
+    margin-top: 3rem;
+}
+
+footer {
+    background-color: #F5F6F8;
+    padding: 3rem 0;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+
+.footer__links a:hover {
+    color: var(--strong-cyan);
+}
+
+.footer__logo {
+    display: inline-block;
+    text-align: center;
+    max-width: 16%;
+}
+
+.footer__social {
+    display: flex;
+    margin-top: 3rem;
+    padding: 0 3rem;
+    justify-content: space-evenly;
+}
